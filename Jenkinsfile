@@ -14,9 +14,9 @@ pipeline {
             }
         }
 
-        stage("Deploy application") { 
+        stage("sprint2 branch") { 
              steps { 
-                sh 'echo "Deploying application..."'
+                sh 'echo "this is sprint2 application..."'
             }
         }  
     }
